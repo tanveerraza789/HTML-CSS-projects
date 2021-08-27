@@ -26,10 +26,22 @@
   vertical-align: middle;
 }
 
+.plan:hover,
+.plan:active {
+  background-color: #9cff9c;
+  transition: 0.3s;
+}
+
 .plan--highlighted {
   background: #19b84c;
   color: white;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan--highlighted:hover,
+.plan--highlighted:active {
+  background-color: #40c56a;
+  transition: 0.3s;
 }
 
 .plan__annotation {
@@ -48,6 +60,7 @@
   color: white;
   border: #d5ffd5 solid 4px;
   box-shadow: none;
+  transition: 0.2s;
 }
 
 .plan__features {
