@@ -20,6 +20,7 @@ main {
   text-align: left;
   width: 80%;
   box-shadow: 2px 2px 2px 2px rgbs(0, 0, 0, 0.5);
+  position: relative;
 }
 
 .plan:hover,
@@ -40,6 +41,17 @@ main {
 
 .plan__note {
   color: #979797;
+}
+
+.plan__badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 12px;
+  color: white;
+  background-color: #ff5454;
+  padding: 8px;
 }
 
 .plan__description {
